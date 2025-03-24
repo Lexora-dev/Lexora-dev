@@ -10,7 +10,7 @@ from ..models.workflow_model import WorkflowModel
 from ..evals.evaluator import prepare_and_evaluate_dataset, load_yaml_config
 from ..schemas.workflow_schemas import WorkflowDefinitionSchema
 from ..schemas.eval_schemas import EvalRunRequest, EvalRunStatusEnum, EvalRunResponse
-from .workflow_management import get_workflow_output_variables
+from ..workflow_management import get_workflow_output_variables
 from ..models.eval_run_model import EvalRunModel, EvalRunStatus
 
 router = APIRouter()
