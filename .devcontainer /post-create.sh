@@ -6,4 +6,4 @@ echo '
 # Source custom bashrc settings if the file exists
 if [ -f /pyspur/.devcontainer/.bashrc ]; then
     source /pyspur/.devcontainer/.bashrc
-fi' >> /.bashrc 
+fi' >>/.bashrc 
