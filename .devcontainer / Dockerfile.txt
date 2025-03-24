@@ -20,7 +20,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_23.x | bash - \
 # Development stage
 FROM base as development
 WORKDIR /pyspur/frontend
-COPY frontend/package*.json ./
+COPY frontend/package*.json . /
 RUN npm install
 
 WORKDIR /pyspur
