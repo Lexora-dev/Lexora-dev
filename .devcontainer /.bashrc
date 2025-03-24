@@ -11,4 +11,4 @@ alias dlogn='docker logs -f pyspur-nginx-1 --since 5m'
 alias dlogs='docker compose logs -f --since 5m'
 
 # Add color to the terminal
-export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$'
